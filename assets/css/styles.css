@@ -1,20 +1,17 @@
-/* Reset default browser styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and overall font styling */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    padding-top: 50px; /* Offset for fixed navbar */
+    padding-top: 50px; 
 }
 
-/* Navbar Styling */
 #navbar {
     position: fixed;
     top: 0;
@@ -48,10 +45,9 @@ body {
     border-radius: 5px;
 }
 
-/* Header Styling */
 header {
     text-align: center;
-    margin-top: 80px; /* Adjust for fixed navbar */
+    margin-top: 80px; 
     padding: 50px;
     background-color: #333;
     color: #fff;
@@ -67,7 +63,6 @@ header p {
     margin-top: 10px;
 }
 
-/* Section Styling */
 section {
     padding: 40px;
     margin: 20px auto;
@@ -104,7 +99,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Contact Information Section */
 #contact-info {
     background-color: #f9f9f9;
 }
@@ -117,7 +111,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Footer Styling */
 footer {
     background-color: #333;
     color: #fff;
@@ -133,7 +126,6 @@ footer article {
     color: #bbb;
 }
 
-/* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
     #navbar ul {
         flex-direction: column;
